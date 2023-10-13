@@ -2,4 +2,4 @@ flask==2.2.5
 imageai==3.0.3
 torch==1.13.1
 tensorflow==2.14.0
-torchvision=0.16.0
+torchvision==0.16.0

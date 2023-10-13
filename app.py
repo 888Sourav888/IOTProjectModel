@@ -80,6 +80,12 @@ def checkfile():
 @app.route("/")
 def indexFile():
   return "this is the index string" 
+
+
+
+
+if __name__ == "__main__":
+    app.run(debug=False,host='0.0.0.0')
 # #print("To access the site click the link " ,  public_url) 
 # app.run(port=port_no)
 

@@ -1,0 +1,6 @@
+from twilio.rest import Client
+account_sid = "ACd53f4368502ea1c5141fcef7de856330"
+auth_token = "7723e9148f7a045ae2129020258fd717"
+client = Client(account_sid, auth_token)
+message = client.messages.create(body="monkey",from_="+16206588938",to="+919445079858")
+print(message.sid)
